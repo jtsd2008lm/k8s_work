@@ -21,7 +21,7 @@ USE `lagou`;
 DROP TABLE IF EXISTS `position`;
 
 CREATE TABLE `position` (
-  `id` long primary key auto_increment,
+  `id` bigint primary key auto_increment,
   `companyName` varchar(300) DEFAULT NULL,
   `positionAdvantage` varchar(300) DEFAULT NULL,
   `companyId` double DEFAULT NULL,
